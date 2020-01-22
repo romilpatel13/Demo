@@ -49,21 +49,9 @@ public class TestBase {
 	public static String excelFile;
 	public WebDriver getInstance() throws IOException {
 		
-		/*FileInputStream inStream=new FileInputStream(new File(""+ "./src/main/resources/config/config.properties"));
-		prop=new Properties();
-		prop.load(inStream);
-		browser=prop.getProperty("browser").trim();
-		url=prop.getProperty("url").trim();
-		username=prop.getProperty("username").trim();
-		System.out.println(username);
-		password=prop.getProperty("password").trim();
-		System.out.println(password);
-		cbrowser=browser.toLowerCase();*/
 		
 		logger.info("Get Instance of Browser");
 		constant = new Constants();
-		//excelFile=constant.dataFile;
-		//url=ExcelUtility.getCellData("userInfo","url",0);
 		url=ExcelUtility.getCellData("userInfo","url",0);
 		String key=null;
 		String value=null;
