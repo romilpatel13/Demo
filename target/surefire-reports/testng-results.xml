@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36423" started-at="2020-01-21T17:25:02Z" finished-at="2020-01-21T17:25:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36423" started-at="2020-01-21T17:25:02Z" finished-at="2020-01-21T17:25:39Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@13a57a3b]" name="beforeMethod" is-config="true" duration-ms="7411" started-at="2020-01-21T17:25:02Z" finished-at="2020-01-21T17:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="creatNewProject()[pri:1, instance:testcases.LoginTest@13a57a3b]" name="creatNewProject" duration-ms="28989" started-at="2020-01-21T17:25:10Z" description="Create New Project" finished-at="2020-01-21T17:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatNewProject -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.LoginTest@13a57a3b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-21T17:25:39Z" finished-at="2020-01-21T17:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
