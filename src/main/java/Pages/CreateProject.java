@@ -90,6 +90,8 @@ public class CreateProject {
 	public void enterBasicProjectDetails(String projectname){
 		projectName.sendKeys(projectname);
 	} 
+	
+	//Use to generate fake Name
 	private String getProjectName(){
 		//Faker faker = new Faker();
 		project = faker.lastName()+" " + "Solution";
